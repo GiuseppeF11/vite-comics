@@ -63,21 +63,16 @@ export default {
 <style lang="scss" scoped>
 body {
 }
-
-
 .container-header {
-    height: 15vh;
+    height: 12vh;
     width: 80vw;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .logo-box {
         width: 100px;
         padding: 20px;
-
-        img {
-            width: 100%;
-        }
     }
 
     .navbar {

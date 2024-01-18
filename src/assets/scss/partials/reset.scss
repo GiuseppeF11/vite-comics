@@ -3,8 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
 }
 
 * img {
     width: 100%;
+}
+
+* a {
+    text-decoration: none;
 }

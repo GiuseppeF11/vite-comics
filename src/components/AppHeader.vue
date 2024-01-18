@@ -85,6 +85,7 @@ body {
         justify-content: space-between;
         align-items: center;
         min-width: 70%;
+        font-size: small;
 
         .navbar-link {
             height: 100%;
@@ -100,7 +101,7 @@ body {
 
             a {
                 text-decoration: none;
-                color: rgb(59, 59, 59);
+                color: rgb(90, 89, 89);
                 padding: 10px 0;
             }
         }

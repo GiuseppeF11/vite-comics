@@ -1,4 +1,5 @@
 <script>
+import Cards from './Cards.vue';
 export default {
     data() {
         return {
@@ -103,8 +104,8 @@ export default {
 
         };
     },
-    methods: {
-        
+    components: {
+        Cards
     }
 }
 </script>
@@ -113,16 +114,16 @@ export default {
     <main>
         <div class="content-box jumbo-box">
             <div class="jumbo-box">
+                <div>
+                    CURRENT SERIES
+                </div>
             </div>
             <div class="cards-container">
-                <div class="card" v-for="(elem , i) in cards">
-                    <div class="img-box" >
-                        <img :src="this.cards[i].thumb" alt="">
-                    </div>
-                    <h5>
-                       {{this.cards[i].series}}
-                    </h5>
-                </div>
+                <Cards 
+                    v-for="(elem , i) in cards"
+                    :img="elem.thumb"
+                    :name="elem.series"
+                    />
             </div>
             <div class="button-container">
                 <button>
@@ -158,6 +159,13 @@ main {
             height: 45vh;
             background-size: cover;
             background-image: url(../../public/img/jumbotron.jpg);
+
+            div {
+                position: absolute; bottom: 40vh; left: 10vw;
+                background-color: #0282F9;
+                padding: 10px 20px;
+                font-weight: bold;
+            }
         }
 
         .cards-container {
@@ -166,36 +174,6 @@ main {
             padding: 30px 0;
             display: flex;
             flex-wrap: wrap;
-
-            .card {
-                width: (100% / 6);                
-                height: 250px;
-                padding: 3px;
-                cursor: pointer;
-                margin-bottom: 20px;
-
-                &:hover {
-                    background-color: #555555;
-                }
-                .img-box {
-                    width: 150px;
-                    height: 200px;
-                    overflow: hidden;
-                    margin: 0 auto;
-
-                    img  {
-                        width: 100%;
-                    }
-                }
-
-                h5 {
-                    padding: 5px 0;
-                    font-size: 15px;
-                    width: 150px;
-                    margin: 0 auto;
-                }
-
-            }
         }
 
         .button-container {

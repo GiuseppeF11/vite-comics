@@ -96,7 +96,8 @@ export default {
             a {
                 text-decoration: none;
                 color: rgb(90, 89, 89);
-                padding: 10px 0;
+                padding: 32px 0;
+                display: block;
             }
         }
         

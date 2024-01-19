@@ -133,6 +133,10 @@ footer {
                         margin: 5px 0;
                         color: #959595;
                         font-size: 10px;
+
+                        &:hover {
+                            color: white;
+                        }
                     }
                 }
                 }

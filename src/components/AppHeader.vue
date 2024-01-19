@@ -61,8 +61,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-body {
-}
 .container-header {
     height: 12vh;
     width: 80vw;

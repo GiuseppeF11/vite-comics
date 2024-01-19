@@ -4,23 +4,23 @@ export default {
         return {
             shopOptions: [
             {
-                icon: '../../public/img/buy-comics-digital-comics.png',
+                icon: '/img/buy-comics-digital-comics.png',
                 text: 'DIGITAL COMICS'
             },
             {
-                icon: '../../public/img/buy-comics-merchandise.png',
+                icon: '/img/buy-comics-merchandise.png',
                 text: 'DC MERCHANDISE'
             },
             {
-                icon: '../../public/img/buy-comics-subscriptions.png',
+                icon: '/img/buy-comics-subscriptions.png',
                 text: 'SUBSCRIPTION'
             },
             {
-                icon: '../../public/img/buy-comics-shop-locator.png',
+                icon: '/img/buy-comics-shop-locator.png',
                 text: 'COMIC SHOP LOCATOR'
             },
             {
-                icon: '../../public/img/buy-dc-power-visa.svg',
+                icon: '/img/buy-dc-power-visa.svg',
                 text: 'DC POWER VISA'
             },
         ]
@@ -37,7 +37,7 @@ export default {
     <main>
         <div class="content-box">
             <div>
-              Content goes here
+             -- Content goes here --
             </div>
         </div>
 
@@ -58,7 +58,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
-
+    
     .content-box {
         display: flex;
         align-items: center;
@@ -69,7 +69,7 @@ main {
 
         &>div {
             margin: 0 auto;
-            width: 80vw;
+            width: 77vw;
         }
     }
 

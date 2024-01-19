@@ -83,9 +83,10 @@ body {
         font-size: small;
 
         .navbar-link {
-            height: 100%;
             display: flex;
             align-items: center;
+            justify-content: center;
+            min-width: 50px;
 
             &:hover {
                 border-bottom: 5px solid #0282F9;

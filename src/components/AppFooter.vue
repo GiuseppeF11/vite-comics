@@ -13,158 +13,92 @@ export default {
 <template>
     <footer>
         <div class="footer-top">
-            <div>
-                <div class="footer-row">
-                <div class="footer-col">
-                    <ul>
-                        <h3>
-                            <a href="">
-                                DC COMICS
-                            </a>
-                        </h3>
-                        <li>
-                            <a href="">
-                                Characters
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Comics
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Movies
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Tv
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Games
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Videos
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                News
-                            </a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
+            <div class="container-footer-top">
+                <div class="info-container">
+                    <div class="col">
+                        <div class="title">
+                            <h3>DC COMICS</h3>
+                            <a href="">Characters</a>
+                            <a href="">Comics</a>
+                            <a href="">Movies</a>
+                            <a href="">Tv</a>
+                            <a href="">Games</a>
+                            <a href="">News</a>
+                        </div>
+                        <div class="title">
                             <h3>SHOP</h3>
-                        </li>
-                        <li>Shop Dc Collectibles</li>
-                    </ul>
+                            <a href="">Shop DC</a>
+                            <a href="">Shop DC Collectibles</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title">
+                            <h3>DC</h3>
+                            <a href="">Term Of Use</a>
+                            <a href="">Privacy policy (New)</a>
+                            <a href="">Ad Choices</a>
+                            <a href="">Advertising</a>
+                            <a href="">Jobs</a>
+                            <a href="">Subscriptions</a>
+                            <a href="">Talent Workshops</a>
+                            <a href="">CPSC Certificates</a>
+                            <a href="">Ratings</a>
+                            <a href="">Shop Help</a>
+                            <a href="">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="title">
+                            <h3>SITES</h3>
+                            <a href="">DC</a>
+                            <a href="">MAD Magazine</a>
+                            <a href="">DC Kids</a>
+                            <a href="">DC Universe</a>
+                            <a href="">DC Power Visa</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="footer-row">
-                <div class="footer-col">
-                    <ul>
-                        <h3>
-                            <a href="">
-                                DC
-                            </a>
-                        </h3>
-                        <li>
-                            <a href="">
-                                Terms Of Use
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Privacy policy (New)
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Ad Choices
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Advertising
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Jobs
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Subscriptions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Jobs
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Talent Workshops
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                CPSC Certificates
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Ratings
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Shop Help
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                Contact Us
-                            </a>
-                        </li>
-                    </ul>
+                <div class="logo-box">
+                    <img src="../../public/img/dc-logo-bg.png" alt="">
                 </div>
-            </div>
-            <div class="footer-row">
-                <div class="footer-col">
-                    <ul>
-                        <h3>SITES</h3>
-                        <li>DC</li>
-                        <li>MAD Magazine</li>
-                        <li>DC Kids</li>
-                        <li>DC Universe</li>
-                        <li>DC Power Visa</li>
-                    </ul>
-                    <ul>
-                        <h3>Shop Dc</h3>
-                        <li>Shop Dc Collectibles</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="logo-box">
-                <img src="../../public/img/dc-logo-bg.png" alt="">
-            </div>
             </div>
         </div>
-        <div class="footer-bottom">bottom</div>
+        <div class="footer-bottom">
+            <div class="left-side"> 
+                 <button>SIGN-UP NOW!</button>
+            </div>
+            <div class="right-side"> 
+                <span>
+                    FOLLOW US
+                </span>
+                <div class="logo-box">
+                    <img src="../../public/img/footer-facebook.png" alt="">
+                </div>
+                <div class="logo-box">
+                    <img src="../../public/img/footer-periscope.png" alt="">
+                </div>
+                <div class="logo-box">
+                    <img src="../../public/img/footer-pinterest.png" alt="">
+                </div>
+                <div class="logo-box">
+                    <img src="../../public/img/footer-twitter.png" alt="">
+                </div>
+                <div class="logo-box">
+                    <img src="../../public/img/footer-youtube.png" alt="">
+                </div>
+            </div>
+        </div>
     </footer>
 </template>
 
 <style lang="scss" scoped>
+
+footer {
+    height: 61vh;
+    background-color: #303030;
+}
 .footer-top{
-    height: 48vh;
+    height: 75%;
     background-image: url(../../public/img/footer-bg.jpg);
     display: flex;
     justify-content: space-around;
@@ -174,32 +108,37 @@ export default {
             margin: 0 auto;
             width: 80vw;
             display: flex;
-            justify-content: space-around;
-        }
+            justify-content: space-between;
 
-    .footer-row {
-        padding: 20px 0;
-        
-        .footer-col {
-            height: 100%;
+            .info-container {
+                width: 60%;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
 
-        h3 {
-            padding-bottom: 5px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-            a {
-                color: white;
+                .col {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 5px;
+                    & .title {
+                    margin-bottom: 20px;
+
+                    h3 {
+                        margin: 5px 0;
+                    }
+
+                    a {
+                        display: block;
+                        padding: 3px 0;
+                        margin: 5px 0;
+                        color: #959595;
+                        font-size: 10px;
+                    }
+                }
+                }
             }
         }
-
-        a {
-            color: rgb(167, 167, 167);
-            font-size: small;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
-        }
-    }
-    }
-
-    .logo-box {
+        .logo-box {
         width: 30%;
         height: 100%;
         overflow: hidden;
@@ -210,7 +149,58 @@ export default {
             height: 150%;
             object-fit: contain;
         }
-
     }
 }
+
+.footer-bottom {
+    margin: 0 auto;
+    width: 80vw;
+    height: 25%;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+
+    .left-side {
+        display: flex;
+        align-items: center;
+        
+        button {
+            background-color: #303030;
+            color: white;
+            font-weight: bold;
+            font-size: medium;
+            padding: 10px;
+            border: 3px solid #0282F9;
+            cursor: pointer;
+
+            &:active {
+                background-color: #555555;
+            }
+        }
+    }
+
+    .right-side {
+        height: 100%;
+        min-width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            color: #0282F9;
+            padding: 20px;
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        .logo-box {
+            width: 30px;
+            margin: 0 10px;
+        }
+    }
+}
+
+    
+
+
 </style>

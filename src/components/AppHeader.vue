@@ -79,12 +79,14 @@ export default {
         align-items: center;
         min-width: 70%;
         font-size: small;
+        height: 100%;
 
         .navbar-link {
             display: flex;
             align-items: center;
             justify-content: center;
             min-width: 50px;
+            height: 100%;
 
             &:hover {
                 border-bottom: 5px solid #0282F9;
@@ -95,9 +97,11 @@ export default {
 
             a {
                 text-decoration: none;
+                height: 100%;
                 color: rgb(90, 89, 89);
-                padding: 32px 0;
-                display: block;
+                padding: 0 10px;
+                display: flex;
+                align-items: center;
             }
         }
         
